@@ -8,7 +8,7 @@
 
 ### D-001 · 2026-11-09 · 언어는 Python
 
-- **이유:** 메일 처리(imaplib)와 본문 추출(trafilatura) 라이브러리가 Python에 잘 갖춰져 있고, Anthropic SDK도 Python 지원이 가장 앞서 있다. 하루 한 번 도는 배치 작업이라 Spring Boot 같은 서버 프레임워크는 과하다.
+- **이유:** 메일 처리(imaplib)와 본문 추출(trafilatura) 라이브러리가 Python에 잘 갖춰져 있고, Anthropic SDK도 Python 지원이 가장 앞서 있다. 하루 한 번 도는 배치 작업이라 Spring Boot 같은 서버 프레임워크는 과하다고 판단함.
 - **다시 볼 조건:** 기존 Spring 서비스 안에 기능으로 직접 넣어야 할 때.
 
 ### D-002 · 2026-11-09 · 에이전트 프레임워크 없이 Claude API를 직접 호출

@@ -1,0 +1,43 @@
+# ── 비밀값 ──
+.env
+.env.*
+!.env.example
+*.pem
+# GCP 서비스 계정 키 (로컬 테스트용으로 받았을 때)
+*-sa.json
+service-account*.json
+gcp-key*.json
+
+# ── 로컬 데이터 ──
+*.db
+*.sqlite
+*.sqlite3
+data/
+logs/
+*.log
+
+# ── 실제 메일·기사 원문 ──
+samples/raw/
+*.eml
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ── 에디터·OS ──
+.idea/
+.vscode/
+.DS_Store
+
+# ── Claude Code 개인 설정 ──
+.claude/settings.local.json
